@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-customer-points/static/css/main.10e52e5b.chunk.css",
+    "main.css": "/react-customer-points/static/css/main.0daf47ed.chunk.css",
     "main.js": "/react-customer-points/static/js/main.c494d0e4.chunk.js",
     "main.js.map": "/react-customer-points/static/js/main.c494d0e4.chunk.js.map",
     "runtime~main.js": "/react-customer-points/static/js/runtime~main.dca91846.js",
@@ -8,8 +8,8 @@
     "static/js/2.2eeb3f18.chunk.js": "/react-customer-points/static/js/2.2eeb3f18.chunk.js",
     "static/js/2.2eeb3f18.chunk.js.map": "/react-customer-points/static/js/2.2eeb3f18.chunk.js.map",
     "index.html": "/react-customer-points/index.html",
-    "precache-manifest.92d6f64f3d1d38e3e676256925681f14.js": "/react-customer-points/precache-manifest.92d6f64f3d1d38e3e676256925681f14.js",
+    "precache-manifest.cc34226e722ab0dbc8509635e68bd7c4.js": "/react-customer-points/precache-manifest.cc34226e722ab0dbc8509635e68bd7c4.js",
     "service-worker.js": "/react-customer-points/service-worker.js",
-    "static/css/main.10e52e5b.chunk.css.map": "/react-customer-points/static/css/main.10e52e5b.chunk.css.map"
+    "static/css/main.0daf47ed.chunk.css.map": "/react-customer-points/static/css/main.0daf47ed.chunk.css.map"
   }
 }
