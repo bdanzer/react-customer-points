@@ -19,3 +19,7 @@ Tests are located in `./src/tests` to help test calculating points. To run a tes
 # Generation
 
 Running `npm run generate` will call this file `./src/api/generate.js` and you can specifiy the number of transactions with this function `generateTransactions`. That command will generate the transaction data in `./src/api/data/transactionData.json` to make playing with data easier.
+
+# Node version used
+
+v8.17.0
