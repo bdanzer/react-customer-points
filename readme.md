@@ -17,7 +17,7 @@ npm run start;
 
 # Transaction Data Generation
 
-Running `npm run generate` will call this file `./src/api/generate.js` and you can specifiy the number of transactions with this function `generateTransactions`. That command will generate the transaction data in `./src/api/data/transactionData.json` to make playing with data easier.
+Running `npm run generate` will call this file `./src/api/generate.js` and you can specifiy the number of transactions with this function `generateTransactions`, the default is 200. That command will generate/scaffold the transaction data in `./src/api/data/transactionData.json` to make playing with data easier.
 
 # Components
 
