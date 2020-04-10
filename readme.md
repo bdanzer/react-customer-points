@@ -3,6 +3,9 @@
 * Given a record of every transaction during a three month period, calculate the reward points earned for each customer per month and total.
 * Make up a data set to best demonstrate your solution
 
+# Demo 
+https://bdanzer.github.io/react-customer-points/
+
 # Installation
 
 ```bash
@@ -11,6 +14,10 @@
 npm install;
 npm run start;
 ```
+
+# Components
+
+I opted out using any third party component libraries like material UI
 
 # Tests
 
@@ -23,3 +30,7 @@ Running `npm run generate` will call this file `./src/api/generate.js` and you c
 # Node version used
 
 v8.17.0
+
+# Deployment
+
+* `npm run build:deploy`
