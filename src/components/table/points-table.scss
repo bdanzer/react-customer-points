@@ -5,23 +5,24 @@
         width: 100%;
         max-width: 800px;
         margin: auto;
-    
+
         border-spacing: 0;
         box-shadow: 0px 0px 13px 5px #00000026;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
         border-radius: 8px;
         overflow: hidden;
-    
+
         th {
+            text-transform: capitalize;
             padding: 15px;
             background: #566573;
             color: white;
-    
+
             &:first-child {
                 border-top-left-radius: 8px;
             }
-    
+
             &:last-child {
                 border-top-right-radius: 8px;
             }

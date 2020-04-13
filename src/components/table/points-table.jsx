@@ -8,8 +8,8 @@ export default function PointsTable({ children, data, headers }) {
             <table id="customers">
                 <tbody>
                     <tr>
-                        {headers.map((header) => (
-                            <th>{header}</th>
+                        {headers.map((header, i) => (
+                            <th key={i}>{header}</th>
                         ))}
                     </tr>
                     {Object.keys(data).map((key, i) => children(data[key], i))}

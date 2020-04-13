@@ -10,6 +10,7 @@ import "./styles.css";
 
 export default function App() {
     const [transactions, setTransactionsData] = useState();
+    const [months, setMonths] = useState([]);
 
     const getTransactions = async () => {
         let tData = await transactionsData;
@@ -19,11 +20,11 @@ export default function App() {
             3
         );
 
+        setMonths(monthsInRange);
+
         tData = filterDates(tData, initialDate, movedDate, monthsInRange);
 
         setTransactionsData(tData);
-
-        console.log(tData);
     };
 
     useEffect(() => {
@@ -35,14 +36,7 @@ export default function App() {
             <h1>Points Per Customer</h1>
             {transactions && (
                 <PointsTable
-                    headers={[
-                        "Name",
-                        "August",
-                        "September",
-                        "October",
-                        "November",
-                        "Total",
-                    ]}
+                    headers={["Name", ...months, "Total"]}
                     data={transactions}
                 >
                     {(rowData, i) => (

@@ -6,8 +6,8 @@ export default function TableRow({ name, points, months }) {
     return (
         <tr>
             <td>{name}</td>
-            {months.map((month) => (
-                <td>{month.amount}</td>
+            {months.map((month, i) => (
+                <td key={i}>{month.amount}</td>
             ))}
             <td>{points}</td>
         </tr>
